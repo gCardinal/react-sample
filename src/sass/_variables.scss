@@ -1,0 +1,7 @@
+@import "susy";
+
+$maj-halfColumn: susy-get(columns) / 2;
+$maj-thirdColumn: susy-get(columns) / 3;
+$maj-quarterColumn: susy-get(columns) / 4;
+
+$maj-standardSpacing: 20;

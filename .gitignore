@@ -1,0 +1,6 @@
+# Project specifics
+bin/*
+node_modules
+
+# Intellij IDEA
+.idea

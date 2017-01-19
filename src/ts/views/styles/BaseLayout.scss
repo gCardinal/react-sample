@@ -1,0 +1,12 @@
+@import "bourbon";
+@import "palette";
+@import "variables";
+
+.layout {
+  max-width: rem(800);
+  margin: 0 auto;
+}
+
+.content {
+  padding: rem($maj-standardSpacing);
+}

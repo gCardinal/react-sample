@@ -1,0 +1,14 @@
+@import "bourbon";
+@import "palette";
+
+.error {
+  padding: rem(60);
+  margin-top: rem(30);
+
+  h1 {
+    color: $primaryColor;
+    text-shadow: none;
+    font-size: rem(58);
+    margin-top: 0;
+  }
+}

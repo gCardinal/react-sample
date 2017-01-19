@@ -1,0 +1,31 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "es5",
+        "lib": ["es6", "dom"],
+        "module": "commonjs",
+        "sourceMap": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "removeComments": true,
+        "outDir": "compiled/source",
+        "experimentalDecorators": true,
+        "allowJs": true,
+        "paths": {
+            "*": [
+                "src/ts/*",
+                "tests/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "./*.js",
+        "out",
+        "dist",
+        "config",
+        "temp"
+    ]
+}
