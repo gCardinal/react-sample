@@ -12,10 +12,12 @@ the project, you can do so easily if you have Docker installed:
 
 ```
 make && make dev
+// Project will run at localhost:50000
 ```
 
 If you don't have Docker
 
 ```
 yarn install && ./node_modules/.bin/gulp webpack:server
+// Project will run at localhost:3000
 ```

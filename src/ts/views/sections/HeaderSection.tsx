@@ -8,6 +8,7 @@ import Container from 'di/Container'
 import Types from 'di/Types'
 import AuthenticationActionCreator from 'redux/actions/AuthenticationActionCreator'
 import StatefulLink from 'components/StatefulLink/StatefulLink'
+import AuthenticationSelector from 'redux/selectors/AuthenticationSelector'
 
 export interface HeaderSectionProps {
     isAuthenticated: boolean
@@ -50,7 +51,7 @@ export class HeaderSection extends React.Component<HeaderSectionProps, null> {
 
 export function mapStateToProps(state: State): HeaderSectionProps {
     return {
-        isAuthenticated: state.authentication,
+        isAuthenticated: AuthenticationSelector.isAuthenticated(state),
     } as HeaderSectionProps
 }
 

@@ -15,6 +15,7 @@ init:
 vendors-install:
 	$(NODE) yarn install
 	$(NODE) npm rebuild node-sass
+	mkdir -p bin
 	ln -sf ../node_modules/.bin/gulp bin/gulp
 
 webpack-server:
